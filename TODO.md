@@ -1,0 +1,6 @@
+- Use husky for pre-commit hooks
+- Create npm scripts for:
+  - deploy (don't need dev environment for now)
+  - lint/prettier
+  - test
+- Run a task
