@@ -14,6 +14,7 @@
     "typescript": "^4.1.5"
   },
   "dependencies": {
+    "tplink-cloud-api": "git://github.com/danmckeon/tplink-cloud-api.git",
     "weather-underground-node": "^1.0.0"
   }
 }
