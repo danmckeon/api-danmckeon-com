@@ -34,6 +34,22 @@ Validate your current version with:
 node -v
 ```
 
+#### Bash version 4+
+
+Validate your current version with:
+
+```
+bash --version
+```
+
+#### jq
+
+Validate the `jq` binary with:
+
+```
+which jq
+```
+
 ## Commonly used commands
 
 #### Install packages
