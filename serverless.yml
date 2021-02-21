@@ -20,7 +20,7 @@ provider:
   environment:
     WEATHER_STATION_ID: ${ssm:/general/weatherStationId~true}
     WEATHER_STATION_API_KEY: ${ssm:/general/weatherStationApiKey~true}
-    TP_LINK_TOKEN: ${ssm:/general/weatherStationApiKey~true}
+    TP_LINK_TOKEN: ${ssm:/general/tpLinkToken~true}
     # TODO: Add TREATLIFE TOKEN
   # As necessary, add permissions with iamRoleStatements
   # iamRoleStatements:
