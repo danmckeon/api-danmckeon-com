@@ -14,7 +14,8 @@ declare -A ssm_env
 ssm_env=( 
   ["/general/weatherStationId"]="WEATHER_STATION_ID"
   ["/general/weatherStationApiKey"]="WEATHER_STATION_API_KEY"
-  ["/general/weatherStationApiKey"]="TP_LINK_TOKEN"
+  ["/general/tpLinkEmail"]="TP_LINK_EMAIL"
+  ["/general/tpLinkPassword"]="TP_LINK_PASSWORD"
 )
 
 ssm_params=$(aws ssm get-parameters --name "${!ssm_env[@]}" --with-decryption | jq '.Parameters')
